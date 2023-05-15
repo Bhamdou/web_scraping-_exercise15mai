@@ -1,0 +1,7 @@
+In this script:
+
+We send a GET request to the URL of the webpage we want to scrape.
+We parse the HTML of the webpage using BeautifulSoup.
+We find all elements that are either <h1>, <h2>, or <h3> tags. These are typically used for main headings and subheadings on a webpage.
+We extract the text from each heading and remove any leading/trailing whitespace.
+We print out each heading.
